@@ -1,8 +1,7 @@
 import image from './food.jpg';
 
 export default function addContent() {
-    const container = document.querySelector('#content');
-    
+    const container = document.querySelector('div');
     const heading = document.createElement('h1');
     heading.textContent = 'Welcome to Barati! Award winning restaurant of the seas!';
     container.appendChild(heading);
