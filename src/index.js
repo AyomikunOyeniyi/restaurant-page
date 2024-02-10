@@ -1,1 +1,3 @@
-console.log('Yoho and a bottle of rum!');
+import addContent from "./add-content";
+
+addContent();
