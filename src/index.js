@@ -1,6 +1,7 @@
 import addContent from "./add-content";
 import addMenu from "./about";
 import addContact from "./contact";
+import './style.css';
 
 addContent();
 const container = document.querySelector('#content');
