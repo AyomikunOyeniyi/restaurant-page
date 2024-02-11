@@ -8,6 +8,7 @@ export default function addContent() {
 
     const myImage = new Image();
     myImage.src = image;
+    myImage.classList.add('image');
     container.appendChild(myImage);
 
     const text = document.createElement('p');
