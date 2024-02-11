@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+.image {
+    width: 600px;
+    height: 600px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
