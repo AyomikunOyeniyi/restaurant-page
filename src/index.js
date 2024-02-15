@@ -25,4 +25,4 @@ const aboutBtn = document.querySelector('#about');
 aboutBtn.addEventListener('click', () => {
     container.textContent = '';
     addContact();
-})
+});
